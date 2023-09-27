@@ -44,3 +44,5 @@ let str2 = str1.slice(11, 17)
 console.log(str1, '    ', str2)
 let str3 = str1.split(' ')[2];
 console.log(str1, '    ', str3)
+let str4 = str1.substring(11, 17)
+console.log(str1, '    ', str4)
