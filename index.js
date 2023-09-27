@@ -29,14 +29,8 @@ switch (ziuaSaptamanii) {
 console.log(' ');
 
 //task3
-let str = 'abcdefghijklMNOPQrstuvwxyz';
-if (str.length > 10) {
-    console.log('lungimea mai mare ca 10');
-} else if (str.length < 10) {
-    console.log('lungimea mai mica ca 10');
-} else {
-    console.log ('lungimea egala cu 10');
-};
+const str = 'abcdeFGHIJklmnOpqrStUvwxyz';
+const lungimeaStr = str.length > 10 ? 'lungimea str e mai mare ca 10' : str.length === 10 ? 'lungimea este egala cu 10' : 'Lungimea este mai mica decat 10';
 console.log(' ');
 
 //task4
